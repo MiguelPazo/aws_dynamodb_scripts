@@ -1,0 +1,14 @@
+#!/bin/bash
+# nohup ./task_insert.sh > /dev/null &
+
+export DYNAMODB_REGION=ca-central-1
+export DYNAMODB_ACCESS_KEY=
+export DYNAMODB_SECRET_KEY=
+
+export FILE_TO_LOAD=/opt/_base_projects/aws_dynamodb_scripts/output/data.csv
+export LOGS_PATH=/opt/_base_projects/aws_dynamodb_scripts/output
+
+export NODE_ENV=production
+export NODE_OPTIONS=--max-old-space-size=128 #128MB
+
+node ./insert/insert_demo.js

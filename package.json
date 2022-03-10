@@ -1,0 +1,20 @@
+{
+  "name": "aws_dynamodb_scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Pazo (https://miguelpazo.com)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-sdk": "^2.840.0",
+    "csv-parse": "^4.15.1",
+    "dateformat": "^3.0.3",
+    "file-system": "^2.2.2",
+    "line-by-line": "^0.1.6",
+    "winston": "^3.6.0"
+  }
+}
